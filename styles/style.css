@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D95858;
+}
+
+.containerWidget {
+    width: 650px;
+    height: 710px;
+    background: #F0F0F0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px #00000040;
+    
+}
+
+#tenisPrincipal {
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.containerWidth {
+    width: 92%;
+    margin-top: 23px;
+}
+
+.containerCoresTenis {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cores {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 24px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.cores:hover {
+    filter: brightness(120%);
+}
+
+.cores:active {
+    filter: brightness(140%);
+}
+
+.containerTituloPreco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tituloTenis {
+    font-size: 2.2rem;
+    margin-top: 23px;
+    font-weight: 700;
+    color: #393939;
+}
+
+.preco {
+    font-size: 2.2rem;
+    margin-top: 23px;
+    font-weight: 700;
+    color: #393939;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 7px;
+    color: #767676;
+}
+
+.containerBotoes {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botaoShopNow {
+    background: #3F99DB;
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.botaoShopNow:hover {
+    background: #55a5df;
+}
+
+.botaoShopNow:active {
+    background: #3F99DB;
+}
+
+.botaoAddToCart {
+    width: 60px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    background: #3F99DB;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.botaoAddToCart:hover {
+    background: #55a5df;
+}
+
+.botaoAddToCart:active {
+    background: #3F99DB;
+}
+
+.botaoAddToCart img {
+    width: 35px;
+    height: 40px;
+}
