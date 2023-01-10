@@ -64,18 +64,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 23px;
 }
 
 .tituloTenis {
     font-size: 2.2rem;
-    margin-top: 23px;
     font-weight: 700;
     color: #393939;
 }
 
 .preco {
     font-size: 2.2rem;
-    margin-top: 23px;
     font-weight: 700;
     color: #393939;
 }
@@ -116,6 +115,9 @@ body {
 }
 
 .botaoAddToCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60px;
     height: 55px;
     border: none;
@@ -136,4 +138,67 @@ body {
 .botaoAddToCart img {
     width: 35px;
     height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .containerWidget {
+        width: 285px;
+        height: 335px;
+        border-radius: 15px;;
+        
+    }
+
+    #tenisPrincipal {
+        width: 260px;
+        height: 140px;
+        border-radius: 15px;
+    }
+
+    .cores {
+        width: 65px;
+        height: 45px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    .containerTituloPreco {
+        margin-top: 12px;
+    }
+
+    .tituloTenis {
+        font-size: 1rem;
+    }
+    
+    .preco {
+        font-size: 1rem;
+    }
+
+    .descricao {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+
+    .containerBotoes {
+        margin-top: 8px;
+    }
+    
+    .botaoShopNow {
+        width: 80px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+    .botaoAddToCart {
+        width: 30px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .botaoAddToCart img {
+        width: 15px;
+        height: 20px;
+    }
 }
